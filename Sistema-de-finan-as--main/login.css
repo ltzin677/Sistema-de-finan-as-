@@ -1,0 +1,59 @@
+
+:root {
+    --bg: #111;
+    --card: #1c1c1c;
+    --text: #fff;
+    --accent: #ff3333;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.login-box {
+    background: var(--card);
+    padding: 30px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #ff000040;
+    text-align: center;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin-top: 12px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background: var(--accent);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: red;
+}
+
+.trocar-pagina {
+    margin-top: 15px;
+    color: var(--accent);
+    cursor: pointer;
+    font-size: 16px;
+}

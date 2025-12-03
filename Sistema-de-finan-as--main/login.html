@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Sistema Financeiro</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+<div class="login-box">
+
+    <div id="telaLogin">
+        <h2>Login</h2>
+
+        <input type="text" id="usuarioLogin" placeholder="Usuário">
+        <input type="password" id="senhaLogin" placeholder="Senha">
+
+        <button onclick="entrar()">Entrar</button>
+
+        <p onclick="mostrarRegistro()" class="trocar-pagina">Criar conta</p>
+    </div>
+
+
+    <div id="telaRegistro" style="display:none;">
+        <h2>Registrar</h2>
+
+        <input type="text" id="usuarioNovo" placeholder="Novo Usuário">
+        <input type="password" id="senhaNova" placeholder="Criar Senha">
+
+        <button onclick="registrar()">Registrar</button>
+
+        <p onclick="mostrarLogin()" class="trocar-pagina">Voltar ao login</p>
+    </div>
+
+</div>
+
+<script src="login.js"></script>
+
+</body>
+</html>
